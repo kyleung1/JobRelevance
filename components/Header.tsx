@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>from header</div>
+    <h1 className='text-7xl text-center my-10'>Job Relevance Evaluator</h1>
   )
 }
 

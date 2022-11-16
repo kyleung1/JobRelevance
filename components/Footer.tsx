@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <p className='text-center'>This project was made using an API made by <a className="text-blue-500" href = "https://www.themuse.com/developers/api/v2">themuse</a></p>
+    </div>
   )
 }
 
