@@ -11,11 +11,19 @@ export default function RootLayout({
   return (
     <html>
         <head />
-        <body>
-        <Header/>
-        <Navbar/>
-        {children}
-        <Footer/>
+        <body className="flex flex-col min-h-screen">
+          <div className="flex-shrink-0">
+            <Header/>
+          </div>
+          <div>
+            <Navbar/>
+          </div>
+          <div className="flex-1">
+            {children}
+          </div>
+          <div className="flex-shrink-0">
+            <Footer/>
+          </div>
         </body>
     </html>
   )

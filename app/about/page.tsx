@@ -6,18 +6,18 @@
 // import styles from '../../styles/Home.module.css'
 // import {Result, RootObject} from "../../types"
 
-// //https://www.themuse.com/developers/api/v2
-// // export const getStaticProps: GetStaticProps = async (context) => {
-// //   const API = "https://www.themuse.com/api/public/jobs";
-// //   const res = await fetch(API + '?category=Software%20Engineering&location=Seattle%2C%20WA&page=3&api_key=' +
-// //    process.env.THE_MUSE)
-// //   const jobs: RootObject = await res.json();
-// //   return {
-// //     props: {
-// //       results: jobs.results
-// //     }
-// //   }
-// // }
+//https://www.themuse.com/developers/api/v2
+// export const getStaticProps: GetStaticProps = async (context) => {
+//   const API = "https://www.themuse.com/api/public/jobs";
+//   const res = await fetch(API + '?category=Software%20Engineering&location=Seattle%2C%20WA&page=3&api_key=' +
+//    process.env.THE_MUSE)
+//   const jobs: RootObject = await res.json();
+//   return {
+//     props: {
+//       results: jobs.results
+//     }
+//   }
+// }
 
 // // async function statusCheck(res: object) {
 // //   if (!res.ok}) {
@@ -62,7 +62,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>Dashboard page</div>
+    <div>About page</div>
   )
 }
 

@@ -50,3 +50,5 @@ export interface RootObject {
   results: Result[];
   aggregations: Aggregations;
 }
+
+export type SearchProp = String;
