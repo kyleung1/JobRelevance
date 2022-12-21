@@ -1,7 +1,6 @@
 "use client";
 import React, { FormEvent } from 'react'
 import { useRef, useEffect, useState, RefObject} from 'react';
-import { RootObject } from '../../types';
 import { useRouter } from "next/navigation";
 
 const Search = () => {
@@ -17,10 +16,11 @@ const Search = () => {
         setSearch("");
         setCat("");
         setLoc("");
-        console.log(search)
-        console.log(category)
-        console.log(location)
-        if (category === "") {
+        const allInput = document.querySelectorAll("input");
+        for (let i = 0; i < allInput.length; i++) {
+            allInput[i].value = "";
+        }
+        if (category === "" || search === "") {
             router.push("/search/Error")
         } else if (location !== "") {
             router.push("/search/" + search + "-" + category + "-" + location);
