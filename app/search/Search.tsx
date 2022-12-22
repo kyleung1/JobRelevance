@@ -46,7 +46,7 @@ const Search = () => {
                     <option value="Videography">Videography</option>
                     <option value="Writing%20and%20Editing">Writing and Editing</option>
                 </select>
-                <label className="mt-5">Enter a skill to search for in the chosen job category.</label>
+                <label className="mt-5">Enter a term to search for in the chosen job category.</label>
                 <input type="text" className="border-2 border-black rounded-md m-0.5 w-4/12" required
                     onChange={(e) => setSearch(e.target.value)}></input>
                 <label className="mt-5"><span className="font-semibold text-sky-500">(optional)</span> Enter a location in the format of city, country/state. 
@@ -54,9 +54,12 @@ const Search = () => {
                 <input type="text" className="border-2 border-black rounded-md m-0.5 w-4/12"
                     onChange={(e) => setLoc(e.target.value)}></input>
                 <button className='p-3 w-2/12 text-white border-2 rounded-md bg-sky-500 
-                   mt-5 hover:bg-sky-700 hover:cursor-pointer'>Evaluate!</button>
+                   my-5 hover:bg-sky-700 hover:cursor-pointer'>Evaluate!</button>
             </form>
-            
+            <p>Note: Some searches might not return any results because of the API.</p>
+            <p className="mt-5">Examples:</p>
+            <p className="px-5">Software Engineer, sql</p>
+            <p className="px-5">Accounting and Finance, contract managment</p>
         </div>
     )
 }

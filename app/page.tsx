@@ -15,9 +15,12 @@ const HomePage = () => {
             <p className='p-4 text-white'>Get Started</p>
           </button>
         </Link>
-        <button className='w-60 my-7 border-2 rounded-md bg-sky-500 hover:bg-sky-700 hover:cursor-pointer'>
-          <p className='p-4 text-white'>About</p>
-        </button>
+        <Link href="/more">
+          <button className='w-60 my-7 border-2 rounded-md bg-sky-500 hover:bg-sky-700 hover:cursor-pointer'>
+            <p className='p-4 text-white'>More Resources</p>
+          </button>
+        </Link>
+        
       </main>
     </div>
   )
