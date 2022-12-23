@@ -8,6 +8,6 @@ The purpose of this website is for job seekers to analyze trends on the job mark
 
 ## Stack
 
-    1. Nextjs - A Reactjs framework for building web applications
-    2. Typescript - A language that extends javascript and adds type safety
-    3. Tailwind - A CSS framework for styling html elements efficiently
+1. Nextjs - A Reactjs framework for building web applications
+2. Typescript - A language that extends javascript and adds type safety
+3. Tailwind - A CSS framework for styling html elements efficiently
